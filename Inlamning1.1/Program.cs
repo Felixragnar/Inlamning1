@@ -1,25 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-/*
- * Följande funktionalitet måste finnas med i applikationen för att kunna uppnå kravet för godkänt (G):
-
-1 Det ska vara möjligt att lägga till en ny kontaktperson.
-2 Det ska vara möjligt att lista  upp samtliga kontakter på ett snyggt och prydligt sätt, som du själv väljer.
-3 Det ska vara möjligt att sen detaljerad information om en specifik kontaktperson.
-4 Efter att den detaljerade informationen om en kontaktperson visats. Ska vara möjligt att att kunna uppdatera kontaktpersonen.
-5 Efter att den detaljerade informationen om en kontaktperson visats. Ska vara möjligt att att kunna ta bort kontaktpersonen.
-6 Du ska kommentera din kod med hjälp av korta kommentarer.
-
-Följande funktionalitet måste finnas med i applikationen för att kunna uppnå kravet för väl godkänt (VG):
-
-Samtliga krav för kravet godkänt (G) måste uppfyllas.
-Alla menyer ska hanteras med hjälp av en Service.
-Alla hjälpklasser/services ska använda sig av ett interface.
-Det ska vara möjligt att spara ner listan till en fil med filformatet .json.
-Det ska vara möjligt att hämta listan från en fil som är sparad med filformatet .json.
-Det ska vara enkelt att kunna ange och uppdatera sökvägen till där filen ska vara sparad. 
- */
-
 using Inlamning1;
 using System.Transactions;
 string mainMenu = $"Addressbook! \nSelect an option by entering a number shown: \n1 Add Contact \n2 View all contacts \n3 Search for a contact \n" +

@@ -67,8 +67,9 @@ namespace Inlamning1
                 foreach (var contact in _contacts)
                 {
                     Console.WriteLine($"Contact: {contact.Number} {contact.Name}");
-                    Console.WriteLine("Enter the contact number to show detailed info, or any other key to return to main menu");
+                    
                 }
+                Console.WriteLine("Enter the contact number to show detailed info, or any other key to return to main menu");
             }
         }
 
